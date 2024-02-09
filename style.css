@@ -1,0 +1,96 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    max-width: 70rem;
+    margin: 2px auto 0;
+    height: 14vh;
+    background: linear-gradient(#202C45, #742EC3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color{
+    width: 100%;
+    max-width: 70rem;
+    margin: 10px auto 0%;
+    background: #742EC3;
+    height: 7vh;
+}
+
+
+.logo img{
+    height: 65px;
+    margin-left: 20px;
+}
+
+.login button{
+    background: #9500ff;
+    color: #FFFFFF;
+    margin-right: 20px;
+    padding: 10px 40px;
+    border-radius: 7.5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.box{
+    width: 100%;
+    max-width: 735px;
+    background-image: url(assets/bg-image.jpg);
+    height: 380px;
+    margin: 35px auto 20px;
+    position: relative;
+}
+
+/* height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0; */
+
+.top{
+    background: white;
+    height: 380px;
+    width: 100%;
+    max-width: 735px;
+    opacity: 0.39;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.black-top{
+    background: black;
+    width: 100%;
+    max-width: 735px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.form{
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.form select, input{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.572);
+}
