@@ -164,3 +164,108 @@ footer {
     color: red;
     transform: translateY(-5px);
 }
+
+.password-field {
+    width: 100%;
+    max-width: 310px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+    max-width: 310px;
+}
+
+#password-field {
+    padding-right: 30px; /* Make room for the eye icon */
+}
+
+#toggle-password-visibility,
+#toggle-password-visibility-slash {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .logo img {
+        height: 65px; 
+    }
+    .login-page {
+        width: 535px; 
+    }
+    body {
+        font-size: 16px; 
+    }
+    .main-name {
+        font-size: 70px; 
+    }
+    .second-name {
+        font-size: 20px; 
+    }
+    .desc {
+        font-size: 16px; 
+    }
+    h2 {
+        font-size: 24px; 
+    }
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 550px) {
+    .logo img {
+        height: 50px; 
+    }
+    .login-page {
+        width: 80%; 
+    }
+    body {
+        font-size: 14px; 
+    }
+    .main-name {
+        font-size: 55px; 
+    }
+    .second-name {
+        font-size: 16px; 
+    }
+    .desc {
+        font-size: 14px; 
+    }
+    h2 {
+        font-size: 20px; 
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .logo img {
+        height: 35px; 
+    }
+    .login-page {
+        width: 90%; 
+    }
+    body {
+        font-size: 12px; 
+    }
+    .main-name {
+        font-size: 40px; 
+    }
+    .second-name {
+        font-size: 12px; 
+    }
+    .desc {
+        font-size: 10px; 
+    }
+    h2 {
+        font-size: 18px; 
+    }
+}

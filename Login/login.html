@@ -23,8 +23,14 @@
         <div class="login-page">
             <div class="form">
                 <h2>LOG IN</h2>
-                <input type="text" placeholder="username"/>
-                <input type="password" placeholder="password"/>
+                <input type="text" placeholder="username" required/>
+                <!-- <input type="password" placeholder="password" id="password" required/>
+                <span class="fas fa-eye"></span> -->
+                <div class="password-container">
+                    <input type="password" id="password-field" class="password-field" />
+                    <i id="toggle-password-visibility" class="fas fa-eye"></i>
+                    <i id="toggle-password-visibility-slash" class="fas fa-eye-slash" style="display: none;"></i>
+                </div>
                 <a href="/file-upload/file-upload.html"><button>LOGIN</button></a>
             </div>
         </div>
@@ -52,6 +58,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -152,6 +152,10 @@ input {
     font-size: 16px;
 }
 
+.select-file-btn{
+    font-size: 14px;
+}
+
 .semester label,
 .supply label {
     margin-right: 15px;
@@ -186,7 +190,7 @@ input {
 footer {
     width: 100%;
     max-width: 70rem;
-    height: 34.5vh;
+    min-height: 34.5vh;
     margin: 30px auto 10px;
     background: black;
     display: flex;
@@ -246,4 +250,137 @@ footer {
 .social-icons a:hover{
     color: red;
     transform: translateY(-5px);
+}
+
+
+@media screen and (max-width: 800px) {
+    .logo img {
+        height: 65px;
+    }
+    .box {
+        height: 70vh;
+        width: 80%; 
+        margin: 0 auto; 
+    }
+
+    .top{
+        height: 70vh;
+    }
+
+    .upload-container {
+        width: 80%; 
+        margin: 0 auto; 
+        height: 30vh;
+    }
+    .upload-container .upload-box {
+        font-size: 18px;
+        max-width: 600px;
+        min-height: 200px;
+        flex-direction: column; 
+    }
+    .upload-container .select-file {
+        font-size: 18px;
+        margin-bottom: 20px; 
+    }
+    .upload-container .select-file-btn {
+        font-size: 18px; 
+    }
+    .upload-container svg {
+        width: 50px; 
+        height: 50px; 
+    }
+    .main-name {
+        font-size: 70px; 
+    }
+    .second-name {
+        font-size: 20px; 
+    }
+    .desc {
+        font-size: 16px; 
+    }
+    .semester label,
+    .supply label {
+        font-size: 18px; 
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 550px) {
+    .logo img {
+        height: 50px; 
+    }
+    .box {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+    .upload-container {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+    .upload-container .upload-box {
+        font-size: 16px; 
+    }
+    .upload-container .select-file {
+        font-size: 16px; 
+    }
+    .upload-container .select-file-btn {
+        font-size: 16px; 
+    }
+    .upload-container svg {
+        width: 40px; 
+        height: 40px; 
+    }
+    .main-name {
+        font-size: 55px; 
+    }
+    .second-name {
+        font-size: 16px; 
+    }
+    .desc {
+        font-size: 14px; 
+    }
+    .semester label,
+    .supply label {
+        font-size: 16px; 
+    }
+}
+
+
+@media screen and (min-width: 550px) {
+    .logo img {
+        height: 35px; 
+    }
+    .box {
+        width: 95%; 
+        margin: 0 auto; 
+    }
+    .upload-container {
+        width: 95%; 
+        margin: 0 auto; 
+    }
+    .upload-container .upload-box {
+        font-size: 14px; 
+    }
+    .upload-container .select-file {
+        font-size: 14px; 
+    }
+    .upload-container .select-file-btn {
+        font-size: 14px; 
+    }
+    .upload-container svg {
+        width: 30px; 
+        height: 30px; 
+    }
+    .main-name {
+        font-size: 40px; 
+    }
+    .second-name {
+        font-size: 12px; 
+    }
+    .desc {
+        font-size: 10px; 
+    }
+    .semester label,
+    .supply label {
+        font-size: 14px; 
+    }
 }
