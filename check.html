@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
-    <div class="login-page">
-        <div class="form">
-            <h2>LOG IN</h2>
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <button>login</button>
+
+    <div class="upload-container">
+        <div class="upload-box">
+            <div class="cloud">
+                <img src="assets/feather_upload-cloud.svg" alt="cloud-upload">
+            </div>
+            <div class="select-file">
+                <p>Select a file or drag and drop here</p>
+                <p>JPG, PNG or PDF, file size no more than 10MB</p>
+            </div>
+            <div class="select-file-btn">
+                <input type="file" id="fileUpload" style="display: none;" />
+                <label for="fileUpload" class="file-upload-button">SELECT FILE</label>
+            </div>
         </div>
     </div>
+
+
 </body>
+
 </html>

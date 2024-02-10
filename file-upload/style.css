@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    max-width: 70rem;
+    margin: 2px auto 0;
+    height: 14vh;
+    background: linear-gradient(#202C45, #742EC3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color {
+    width: 100%;
+    max-width: 70rem;
+    margin: 10px auto 0%;
+    background: #742EC3;
+    height: 7vh;
+}
+
+
+.logo img {
+    height: 65px;
+    margin-left: 20px;
+}
+
+.login button {
+    background: #9500ff;
+    color: #FFFFFF;
+    margin-right: 20px;
+    padding: 10px 40px;
+    border-radius: 7.5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.box {
+    width: 100%;
+    max-width: 735px;
+    background-image: url(/assets/bg-image.jpg);
+    height: 400px;
+    margin: 35px auto 20px;
+    position: relative;
+    border-radius: 25px;
+}
+
+.top {
+    background: white;
+    height: 400px;
+    width: 100%;
+    max-width: 735px;
+    opacity: 0.39;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.black-top {
+    background: black;
+    width: 100%;
+    max-width: 735px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.form {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.semester,
+.supply {
+    margin: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form select,
+input {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.572);
+}
+
+.upload-container{
+    margin: 0 10%;
+}
+
+.upload-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    border: 2px dashed #0F91D2;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.upload-box i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.file-upload-button {
+    padding: 10px 20px;
+    border: 1px solid #0F91D2;
+    border-radius: 5px;
+    background-color: white;
+    color: #0F91D2;
+    cursor: pointer;
+}
+
+.cloud{
+    padding-right: 30px;
+}
+
+.select-file{
+    text-align: left;
+    padding-right: 30px;
+}
+
+.select-file p:first-child{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.select-file p{
+    color: gray;
+    font-size: 16px;
+}
+
+.semester label,
+.supply label {
+    margin-right: 15px;
+    padding-right: 10px;
+}
+
+.get-results-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.get-results-btn button {
+    padding: 10px 50px;
+    border-radius: 25px;
+    background: #592082;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.results {
+    text-align: center;
+    width: 100%;
+    max-width: 70rem;
+    margin: 30px auto 0;
+    background: linear-gradient(#202C45, #742EC3);
+    color: white;
+}
+
+footer {
+    width: 100%;
+    max-width: 70rem;
+    height: 34.5vh;
+    margin: 30px auto 10px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer img {
+    height: 200px;
+}
+
+.name-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.main-name{
+    color: red;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.second-name{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc{
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: red;
+    transform: translateY(-5px);
+}
