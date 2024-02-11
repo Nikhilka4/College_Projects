@@ -345,7 +345,7 @@ footer {
 }
 
 
-@media screen and (min-width: 550px) {
+@media screen and (max-width: 550px) {
     .logo img {
         height: 35px; 
     }
