@@ -6,7 +6,15 @@ const Results = () => {
     return (
         <>
             <main>
-                <FloatLabelDemo />
+                <div className='box'>
+                    <div className='top'></div>
+                    {/* <div className='black-top'></div> */}
+                    <form>
+                        <div className="semester">
+                            <FloatLabelDemo />
+                        </div>
+                    </form>
+                </div>
                 
 
                 {/* <div className="reg-no">

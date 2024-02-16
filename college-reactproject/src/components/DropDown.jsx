@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Dropdown } from 'primereact/dropdown';
 
@@ -14,11 +13,10 @@ export default function FloatLabelDemo() {
 
     return (
         <div className="card flex justify-content-center">
-            <span className="p-float-label w-full md:w-14rem">
+            <div className="p-field p-fluid">
+                <label htmlFor="dd-city" className={`p-d-block ${selectedCity ? 'p-text-bold' : ''}`}>Select a City</label>
                 <Dropdown inputId="dd-city" value={selectedCity} onChange={(e) => setSelectedCity(e.value)} options={cities} optionLabel="name" className="w-full" />
-                <label htmlFor="dd-city">Select a City</label>
-            </span>
+            </div>
         </div>
     )
 }
-        
