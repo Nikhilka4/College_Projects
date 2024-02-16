@@ -1,14 +1,11 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import Results from '../components/Results';
-
-
-
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Results from '../components/ResultsSearch';
 const HomePage = () => {
   return (
     <>
-    <Header />
+    <Header showLogin={true} />
     <Results />
     <Footer />
     </>

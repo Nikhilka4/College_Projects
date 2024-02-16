@@ -1,0 +1,14 @@
+
+.w-full{
+    width: 20vw;
+    border-radius: 25px;
+  }
+
+.p-dropdown-label{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.p-dropdown-items li{
+    margin: 10px;
+}

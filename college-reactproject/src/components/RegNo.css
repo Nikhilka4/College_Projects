@@ -1,0 +1,9 @@
+.p-inputtext{
+    border-radius: 25px;
+    width: 310px;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-sizing: border-box;
+  }

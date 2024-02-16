@@ -1,22 +1,27 @@
+
+import "./DropDown.css";
+
 import React, { useState } from "react";
 import { Dropdown } from 'primereact/dropdown';
 
-export default function FloatLabelDemo() {
-    const [selectedCity, setSelectedCity] = useState(null);
-    const cities = [
-        { name: 'New York', code: 'NY' },
-        { name: 'Rome', code: 'RM' },
-        { name: 'London', code: 'LDN' },
-        { name: 'Istanbul', code: 'IST' },
-        { name: 'Paris', code: 'PRS' }
+export default function DropDown(props) {
+    const [semester, setSemester] = useState(null);
+    const semesters = [
+        { name: '1st semester', code: '1' },
+        { name: '2nd semester', code: '2' },
+        { name: '3rd semester', code: '3' },
+        { name: '4th semester', code: '4' },
+        { name: '5th semester', code: '5' },
+        { name: '6th semester', code: '6' },
+        { name: '7th semester', code: '7' },
+        { name: '8th semester', code: '8' }
     ];
 
     return (
         <div className="card flex justify-content-center">
-            <div className="p-field p-fluid">
-                <label htmlFor="dd-city" className={`p-d-block ${selectedCity ? 'p-text-bold' : ''}`}>Select a City</label>
-                <Dropdown inputId="dd-city" value={selectedCity} onChange={(e) => setSelectedCity(e.value)} options={cities} optionLabel="name" className="w-full" />
-            </div>
+            <Dropdown value={semester} onChange={(e) => setSemester(e.value)} options={semesters} optionLabel="name" 
+                placeholder={props.placeholder} className="w-full md:w-14rem" />
         </div>
     )
 }
+        
