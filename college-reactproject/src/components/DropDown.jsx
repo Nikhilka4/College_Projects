@@ -24,7 +24,7 @@ export default function DropDown(props) {
 
     return (
         <div className="card flex justify-content-center">
-            <Dropdown value={semester} onChange={(e) => setSemester(e.value)} options={semesters} optionLabel="name" 
+            <Dropdown  value={semester} onChange={(e) => setSemester(e.value)} options={semesters} optionLabel="name" 
                 placeholder={props.placeholder} style={dropdownStyle} />
         </div>
     )

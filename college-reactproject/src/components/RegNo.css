@@ -1,4 +1,4 @@
-.p-inputtext{
+.Register{
     border-radius: 25px;
     width: 20vw;
     padding: 10px;
@@ -8,23 +8,23 @@
   }
 
   @media only screen and (max-width: 1200px) {
-    .p-inputtext {
-      width: 20vw;
-      padding: 8px;
+    .Register {
+      width: 30vmax;
+      padding: 1.5vmin;
     }
   }
   
   @media only screen and (max-width: 900px) {
-    .p-inputtext {
-      width: 20vw;
-      padding: 6px;
+    .Register {
+      width: 40vmax;
+      padding: 1.5vmin;
     }
   }
   
   @media only screen and (max-width: 600px) {
-    .p-inputtext {
-      width: 20vw;
-      padding: 4px;
+    .Register {
+      width: 42vmax;
+      padding: 2vmin;
     }
   }
   
