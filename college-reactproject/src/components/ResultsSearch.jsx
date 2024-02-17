@@ -1,5 +1,4 @@
 import React from 'react';
-// import FloatLabelDemo from "./components/dropdown";
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import DropDown from "./DropDown";
@@ -29,3 +28,4 @@ const Results = () => {
 }
 
 export default Results;
+

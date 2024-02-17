@@ -22,13 +22,54 @@ nav {
     margin-left: 20px;
 }
 
-/* .login button {
-    background: #9500ff;
-    color: #FFFFFF;
-    margin-right: 20px;
-    padding: 10px 40px;
-    border-radius: 7.5px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-} */
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    .logo img {
+      height: 50px;
+      margin-left: 10px;
+    }
+  
+    .color {
+      margin: 5px auto 0%;
+      height: 5vh;
+    }
+  
+    nav {
+      min-height: 10vh;
+    }
+  }
+  
+  /* Tablet styles */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .logo img {
+      height: 55px;
+      margin-left: 15px;
+    }
+  
+    .color {
+      margin: 7px auto 0%;
+      height: 6vh;
+    }
+  
+    nav {
+      min-height: 12vh;
+    }
+  }
+  
+  /* Desktop styles */
+  @media only screen and (min-width: 901px) {
+    .logo img {
+      height: 65px;
+      margin-left: 20px;
+    }
+  
+    .color {
+      margin: 10px auto 0%;
+      height: 7vh;
+    }
+  
+    nav {
+      min-height: 14vh;
+    }
+  }
+  

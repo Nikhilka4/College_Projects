@@ -28,3 +28,36 @@ p-button-success{
     margin-right: 0px;
 }
   
+@media only screen and (max-width: 1200px) {
+    .login-page {
+      width: 60vw;
+      height: 30vh;
+    }
+  
+    .form h2 {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .login-page {
+      width: 80vw;
+      height: 20vh;
+    }
+  
+    .form h2 {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .login-page {
+      width: 90vw;
+      height: 15vh;
+    }
+  
+    .form h2 {
+      font-size: 1em;
+    }
+  }
+  

@@ -32,3 +32,40 @@
 .label{
     color: #4A90E2;
 }
+
+@media only screen and (max-width: 1200px) {
+    .card {
+      width: 18rem;
+    }
+  
+    #username,
+    .p-password-input {
+      width: 13rem;
+      height: 5vh;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .card {
+      width: 16rem;
+    }
+  
+    #username,
+    .p-password-input {
+      width: 11rem;
+      height: 4vh;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .card {
+      width: 14rem;
+    }
+  
+    #username,
+    .p-password-input {
+      width: 9rem;
+      height: 3vh;
+    }
+  }
+  

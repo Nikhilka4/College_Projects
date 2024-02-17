@@ -9,3 +9,25 @@
     margin-right: 0.5rem;
     color: white;
   }
+
+  @media only screen and (max-width: 1200px) {
+    .ml-2 {
+      margin-left: 0.4rem;
+      margin-right: 0.4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .ml-2 {
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .ml-2 {
+      margin-left: 0.2rem;
+      margin-right: 0.2rem;
+    }
+  }
+  

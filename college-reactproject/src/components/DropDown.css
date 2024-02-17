@@ -16,3 +16,70 @@
 .p-dropdown-items li{
     margin: 10px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .p-dropdown-label {
+      margin-top: 8px;
+      margin-left: 25px;
+    }
+  
+    .p-fileupload-buttonbar {
+      padding: 8px;
+    }
+  
+    .p-fileupload-content {
+      padding: 8px;
+    }
+  
+    .p-dropdown-items li {
+      margin: 8px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .p-dropdown-label {
+      margin-top: 6px;
+      margin-left: 20px;
+    }
+  
+    .p-fileupload-buttonbar {
+      padding: 6px;
+    }
+  
+    .p-fileupload-content {
+      padding: 6px;
+    }
+  
+    .p-dropdown-items li {
+      margin: 6px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .p-dropdown-label {
+      margin-top: 4px;
+      margin-left: 15px;
+    }
+  
+    .p-fileupload-buttonbar {
+      padding: 4px;
+    }
+  
+    .p-fileupload-content {
+      padding: 4px;
+    }
+  
+    .p-dropdown-items li {
+      margin: 4px;
+    }
+  
+    
+    .p-dropdown .p-dropdown-label {
+      font-size: 16px; 
+    }
+  
+    .p-dropdown {
+      width: 80vw; 
+    }
+  }
+  

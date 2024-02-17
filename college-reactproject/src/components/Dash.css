@@ -46,3 +46,55 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1200px) {
+    .tableConent {
+      width: 60vw;
+      height: 30vh;
+    }
+  
+    .tableConent h2 {
+      padding-left: 30px;
+      padding-top: 10px;
+    }
+  
+    .newUpload {
+      width: 40vw;
+      height: 15vh;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .tableConent {
+      width: 80vw;
+      height: 20vh;
+    }
+  
+    .tableConent h2 {
+      padding-left: 20px;
+      padding-top: 8px;
+    }
+  
+    .newUpload {
+      width: 60vw;
+      height: 12vh;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .tableConent {
+      width: 90vw;
+      height: 15vh;
+    }
+  
+    .tableConent h2 {
+      padding-left: 10px;
+      padding-top: 6px;
+    }
+  
+    .newUpload {
+      width: 80vw;
+      height: 10vh;
+    }
+  }
+  

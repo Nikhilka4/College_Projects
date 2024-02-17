@@ -40,6 +40,57 @@
     cursor: pointer;
   }
   
+  @media only screen and (max-width: 1200px) {
+    .dataTable {
+      width: 50vw;
+      min-height: 18vh;
+    }
+  
+    .card .p-datatable .p-datatable-tbody > tr,
+    .card .p-datatable .p-datatable-thead > tr > th {
+      padding: 12px 0;
+    }
+  
+    .update-button,
+    .delete-button {
+      padding: 2px 6px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .dataTable {
+      width: 70vw;
+      min-height: 16vh;
+    }
+  
+    .card .p-datatable .p-datatable-tbody > tr,
+    .card .p-datatable .p-datatable-thead > tr > th {
+      padding: 10px 0;
+    }
+  
+    .update-button,
+    .delete-button {
+      padding: 2px 4px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .dataTable {
+      width: 90vw;
+      min-height: 14vh;
+    }
+  
+    .card .p-datatable .p-datatable-tbody > tr,
+    .card .p-datatable .p-datatable-thead > tr > th {
+      padding: 8px 0;
+    }
+  
+    .update-button,
+    .delete-button {
+      padding: 1px 2px;
+    }
+  }
+  
   
   
   

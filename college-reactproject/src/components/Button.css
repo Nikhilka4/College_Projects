@@ -2,9 +2,27 @@
     background: #9500ff;
     color: #FFFFFF;
     border-radius: 25px;
-    /* margin-right: 20px; */
     padding: 10px 40px;
     border: 0;
     outline: 0;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1200px) {
+    .p-button-success {
+      padding: 8px 32px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .p-button-success {
+      padding: 6px 24px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .p-button-success {
+      padding: 4px 16px;
+    }
+  }
+  
