@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Buttons from "./Button";
 import LoginForm from "./LoginForm";
 import './Login.css';
@@ -14,9 +14,7 @@ export default function LoginDemo() {
                     <Buttons className='p-button-success' label="LOGIN" />
                 </div>
             </div>
-            <div class="results">
-                <h1>Result notifications will be displayed here...</h1>
-            </div>
+            
         </main>
     )
 }

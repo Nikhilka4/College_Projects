@@ -1,0 +1,46 @@
+.dataTable{
+    width: 35vw;
+    overflow: hidden;
+    min-height: 20vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .card .p-datatable .p-datatable-tbody > tr  {
+    background-color: rgba(0, 0, 0, 0.324);
+    color: white;
+    padding: 15px 0;
+  }
+  .card .p-datatable .p-datatable-tbody > tr > td {
+    padding: 15px 0;
+  }
+  
+  .card .p-datatable .p-datatable-thead > tr > th {
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .update-button {
+    background-color: rgb(85, 197, 235);
+    border-radius: 25px;
+    margin-right: 5px;
+    padding: 3px 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: rgb(249, 44, 44);
+    border-radius: 25px;
+    padding: 3px 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  

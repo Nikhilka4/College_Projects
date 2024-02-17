@@ -11,7 +11,6 @@ const Results = () => {
     return (
         <main>
             <div className="box">
-                <div className="top"></div>
                 <div className="black-top"></div>
                 <div className='form'>
                     <DropDown className="drop"
@@ -21,6 +20,9 @@ const Results = () => {
                     <Register />
                     <Button label="Get Results" />
                 </div>
+            </div>
+            <div class="results">
+                <h1>Result notifications will be displayed here...</h1>
             </div>
         </main>
     )

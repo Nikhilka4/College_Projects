@@ -1,12 +1,4 @@
 
-.results {
-    text-align: center;
-    width: 100%;
-    max-width: 70rem;
-    margin: 30px auto 0;
-    background: linear-gradient(#202C45, #742EC3);
-    color: white;
-}
 
 .login-page {
     position: relative;

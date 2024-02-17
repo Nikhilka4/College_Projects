@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import DashTable from '../components/Dash';
 
 const DashBoard = () => {
   return (
-    <div>DashBoard</div>
+    <>
+      <Header />
+      <DashTable />
+      <Footer />
+    </>
   )
 }
 
-export default DashBoard
+export default DashBoard;

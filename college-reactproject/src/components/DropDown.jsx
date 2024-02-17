@@ -1,4 +1,3 @@
-
 import "./DropDown.css";
 
 import React, { useState } from "react";
@@ -17,11 +16,16 @@ export default function DropDown(props) {
         { name: '8th semester', code: '8' }
     ];
 
+    const dropdownStyle = {
+        height: props.height,
+        width: '20vw',
+        borderRadius: '25px'
+    };
+
     return (
         <div className="card flex justify-content-center">
             <Dropdown value={semester} onChange={(e) => setSemester(e.value)} options={semesters} optionLabel="name" 
-                placeholder={props.placeholder} className="w-full md:w-14rem" />
+                placeholder={props.placeholder} style={dropdownStyle} />
         </div>
     )
 }
-        
