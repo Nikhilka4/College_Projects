@@ -49,8 +49,8 @@
 
 @media only screen and (max-width: 1200px) {
     .tableConent {
-      width: 60vw;
-      height: 30vh;
+      width: 50vmax;
+      height: 30vmin;
     }
   
     .tableConent h2 {
@@ -59,15 +59,15 @@
     }
   
     .newUpload {
-      width: 40vw;
-      height: 15vh;
+      width: 30vmax;
+      height: 13.5vmin;
     }
   }
   
   @media only screen and (max-width: 900px) {
     .tableConent {
-      width: 80vw;
-      height: 20vh;
+      width: 60vw;
+      height: 30vh;
     }
   
     .tableConent h2 {
@@ -76,25 +76,26 @@
     }
   
     .newUpload {
-      width: 60vw;
-      height: 12vh;
+      width: 30vw;
+      height: 13.7vh;
     }
   }
   
   @media only screen and (max-width: 600px) {
     .tableConent {
-      width: 90vw;
-      height: 15vh;
+      width: 60vw;
+      height: 28vh;
     }
   
     .tableConent h2 {
       padding-left: 10px;
       padding-top: 6px;
+      font-size: 0.9rem;
     }
   
     .newUpload {
-      width: 80vw;
-      height: 10vh;
+      width: 30vw;
+      height: 12.7vh;
     }
   }
   

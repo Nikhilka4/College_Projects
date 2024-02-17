@@ -11,16 +11,16 @@
   .card .p-datatable .p-datatable-tbody > tr  {
     background-color: rgba(0, 0, 0, 0.324);
     color: white;
-    padding: 15px 0;
+    padding: 15px 8px;
   }
   .card .p-datatable .p-datatable-tbody > tr > td {
-    padding: 15px 0;
+    padding: 15px 8px;
   }
   
   .card .p-datatable .p-datatable-thead > tr > th {
     background-color: rgba(0, 0, 0, 0.719);
     color: white;
-    padding: 15px 0;
+    padding: 15px 8px;
   }
   
   .update-button {
@@ -42,30 +42,35 @@
   
   @media only screen and (max-width: 1200px) {
     .dataTable {
-      width: 50vw;
-      min-height: 18vh;
+      width: 40vw;
+      height: 18vh;
+      overflow-y: auto;
+      margin-top: 2vmin;
     }
   
     .card .p-datatable .p-datatable-tbody > tr,
     .card .p-datatable .p-datatable-thead > tr > th {
-      padding: 12px 0;
+      padding: 12px 5px;
     }
   
     .update-button,
     .delete-button {
       padding: 2px 6px;
+      margin: 4px 0 0 4px;
     }
   }
   
   @media only screen and (max-width: 900px) {
     .dataTable {
-      width: 70vw;
-      min-height: 16vh;
+      width: 50vw;
+      height: 18vh;
+      overflow: auto auto;
+      margin-top: 2vmin;
     }
   
     .card .p-datatable .p-datatable-tbody > tr,
     .card .p-datatable .p-datatable-thead > tr > th {
-      padding: 10px 0;
+      padding: 10px 8px;
     }
   
     .update-button,
@@ -76,13 +81,15 @@
   
   @media only screen and (max-width: 600px) {
     .dataTable {
-      width: 90vw;
-      min-height: 14vh;
+      width: 50vw;
+      height: 18vh;
+      overflow: auto auto;
+      margin-top: 2vmin;
     }
   
     .card .p-datatable .p-datatable-tbody > tr,
     .card .p-datatable .p-datatable-thead > tr > th {
-      padding: 8px 0;
+      padding: 8px 8px;
     }
   
     .update-button,

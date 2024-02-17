@@ -52,8 +52,8 @@
   
     #username,
     .p-password-input {
-      width: 11rem;
-      height: 4vh;
+      width: 30vmax;
+      height: 6vmin;
     }
   }
   
@@ -64,8 +64,8 @@
   
     #username,
     .p-password-input {
-      width: 9rem;
-      height: 3vh;
+      width: 30vmax;
+      height: 8vmin;
     }
   }
   

@@ -30,8 +30,8 @@ p-button-success{
   
 @media only screen and (max-width: 1200px) {
     .login-page {
-      width: 60vw;
-      height: 30vh;
+      width: 60vmax;
+      height: 40vmin;
     }
   
     .form h2 {
@@ -41,8 +41,8 @@ p-button-success{
   
   @media only screen and (max-width: 900px) {
     .login-page {
-      width: 80vw;
-      height: 20vh;
+      width: 60vmax;
+      height: 40vmin;
     }
   
     .form h2 {
@@ -52,8 +52,8 @@ p-button-success{
   
   @media only screen and (max-width: 600px) {
     .login-page {
-      width: 90vw;
-      height: 15vh;
+      width: 60vmax;
+      height: 50vmin;
     }
   
     .form h2 {
