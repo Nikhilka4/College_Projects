@@ -9,9 +9,9 @@ export default function LoginDemo() {
 
             <div class="login-page">
                 <div class="form">
-                    {/* <h2>LOG IN</h2> */}
+                    <h2>LOG IN</h2>
                     <LoginForm />
-                    {/* <Buttons className='p-button-success' label="LOGIN" /> */}
+                    <Buttons className='p-button-success' label="LOGIN" />
                 </div>
             </div>
             <div class="results">

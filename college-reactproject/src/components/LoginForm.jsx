@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { InputText } from "primereact/inputtext";
+import { Password } from 'primereact/password';
 import "./LoginForm.css";
 
 export default function LoginForm() {
@@ -13,7 +14,7 @@ export default function LoginForm() {
                 <label className="label" htmlFor="username">Username</label>
             </div>
             <div className="p-float-label">
-                <InputText id="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                <Password id="password" value={password} onChange={(e) => setPassword(e.target.value)} toggleMask feedback={false} />
                 <label className="label" htmlFor="password">Password</label>
             </div>
         </div>

@@ -25,9 +25,10 @@
     border-radius: 25px;
     margin-top: 13px;
     padding: 0 15px;
+    padding-right: 40px;
     outline: 0;
 }
 
 .label{
-    color: black;
+    color: #4A90E2;
 }
