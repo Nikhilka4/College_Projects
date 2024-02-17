@@ -6,14 +6,14 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 // import LoginPage from "./pages/LoginPage";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import DashBoard from "./pages/DashBoard";
-// import UploadPage from "./pages/UploadPage";
+// import DashBoard from "./pages/DashBoard";
+import UploadPage from "./pages/UploadPage";
 
         
 function App() {
   return (
     <>
-      <DashBoard />
+      <UploadPage />
     </>
   );
 }
