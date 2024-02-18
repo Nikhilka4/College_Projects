@@ -2,8 +2,12 @@ import React from 'react'
 import Table from './DashTable'
 import "./Dash.css"
 import Button from './Button'
+import { useNavigate } from 'react-router-dom';
+
 
 const Dash = () => {
+    const navigate = useNavigate();
+
     return (
         <>
             <div className="dashBoard">
@@ -13,7 +17,7 @@ const Dash = () => {
                 </div>
                 <div className="uploadContent">
                     <div className="newUpload">
-                        <Button label="New Upload" />
+                        <Button onClick = {() => navigate('/upload')} label="New Upload" />
                     </div>
                     <div className="newUpload">
                         <Button label="New Upload" />

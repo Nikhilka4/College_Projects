@@ -42,7 +42,7 @@
   
   @media only screen and (max-width: 1200px) {
     .dataTable {
-      width: 40vw;
+      width: 45vw;
       height: 18vh;
       overflow-y: auto;
       margin-top: 2vmin;
@@ -62,7 +62,7 @@
   
   @media only screen and (max-width: 900px) {
     .dataTable {
-      width: 50vw;
+      width: 45vw;
       height: 18vh;
       overflow: auto auto;
       margin-top: 2vmin;

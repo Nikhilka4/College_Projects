@@ -3,10 +3,12 @@ import React from 'react'
 import logo from '../assets/logo.png';
 import Button from './Button';
 import "./Header.css";
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const Header = ({ showLogin }) => {
+
+  const navigate = useNavigate();
   return (
     <>
       <nav>
@@ -14,7 +16,7 @@ const Header = ({ showLogin }) => {
           <img src={logo} alt="avanthi logo" />
         </div>
         <div className="login">
-          {showLogin && <Button label="LOGIN" applyMargin={true} />}
+          {showLogin && <Button onClick = {() => navigate('/login')} label="LOGIN" applyMargin={true} />}
         </div>
       </nav>
       <div className="color"></div>
