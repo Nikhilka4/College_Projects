@@ -6,6 +6,7 @@ import Radio from "./Radio";
 import Register from './RegNo';
 import Button from './Button';
 import "./ResultsSearch.css";
+
 const Results = () => {
     return (
         <main>

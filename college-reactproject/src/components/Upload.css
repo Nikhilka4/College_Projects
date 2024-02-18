@@ -4,7 +4,7 @@
     background-image: url(../assets/bg-3.jpg);
     background-size: cover;
     overflow: hidden;
-    height: 48vmin;
+    height: 50vmin;
     margin: 35px auto 20px;
     position: relative;
     border-radius: 25px;
@@ -35,7 +35,7 @@
 @media only screen and (max-width: 1200px) {
     .box {
       max-width: 50vmax;
-      height: 41.55vmin;
+      height: 50vmin;
     }
   
     .black-top {
@@ -47,7 +47,7 @@
   @media only screen and (max-width: 900px) {
     .box {
       max-width: 60vmax;
-      height: 41.55vmin;
+      height: 50vmin;
     }
   
     .black-top {
@@ -59,7 +59,7 @@
   @media only screen and (max-width: 600px) {
     .box {
       max-width: 60vmax;
-      height: 50vmin;
+      height: 65vmin;
     }
   
     .black-top {
