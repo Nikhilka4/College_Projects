@@ -1,11 +1,16 @@
 
 .Upload{
-    max-width: 30vw;
+    min-width: 30vw;
+}
+
+.p-button{
+  padding: 1vmin 1vmax;
+  border-radius: 25px;
 }
 
 @media only screen and (max-width: 1200px) {
     .Upload {
-      max-width: 40vw;
+      min-width: 35vw;
     }
   }
   
