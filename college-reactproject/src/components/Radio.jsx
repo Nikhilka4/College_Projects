@@ -3,7 +3,7 @@ import { RadioButton } from "primereact/radiobutton";
 import "./Radio.css";
 export default function Radio() {
     const [examType, setExamType] = useState('Regular');
-
+// google.com
     return (
         <div className="card flex justify-content-center">
             <div className="flex flex-wrap gap-3">
